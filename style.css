@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('image/bg.jpg');
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+    font-size: 13px;
+
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+
+}
+h1{
+    color: white;
+    font-size: 80px;
+
+}
+p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+
+
+
+
+}
+.btn{
+    margin-right: 120px;
+}
+button{
+    width: 100px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+
+
+}
+button:hover{
+    background: yellow;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-position:center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+
+
+}
+.card1{
+    background-image: url(image/Black_Adam.jpeg);
+
+}
+.btn_details{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 200;
+        display: inline-block;
+        padding: 0.5333em 1.1111em;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 28px;
+        text-shadow: 0 0 5px yellow;
+
+
+    
+    
+    }
+    .btn_details:hover{
+        background-color: yellow;
+    }
+
+.card2{
+    background-image: url(image/Narcosis.jpg);
+
+}
+.card3{
+    background-image: url(image/MadHeidi.jpg);
+
+}
+.card4{
+    background-image: url(image/TheBatman.jpg);
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color:yellow;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+@media(max-width:767px){
+    .logo{
+        width: 100px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        color: white;
+        font-size: 5px;    
+    }
+    .card{
+        width: 60px;
+        height: 130px;
+    
+    }
+    h5{
+        font-size: 7px;
+        margin-top: 30px;
+       margin-left: -12px;        
+    
+    }
+    .btn_details{
+            font-size: 7px;
+            margin-left: -12px;
+            display: inline-block;
+            padding: 0.1333em 1em;
+            border-radius: 7px;
+            margin-top: 15px;
+        
+        }
+        nav ul li {
+            display: inline-block;
+            margin-left: 30px;
+        
+        }
+
+
+
+
+
+}
+
+@media (max-width:1000px){
+    .logo{
+        width: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        color: white;
+    }
+    .card{
+        width: 105px;
+        height: 130px;
+    
+    }
+    h5{
+        font-size: 10px;
+        margin-top: 30px;
+       margin-left: 9px;        
+    
+    }
+    .btn_details{
+            font-size: 7px;
+            margin-left: 9px;
+            display: inline-block;
+            padding: 0.1333em 1em;
+            border-radius: 7px;
+            margin-top: 15px;
+        
+        }
+        nav ul li {
+            display: inline-block;
+            margin-left: 30px;
+        
+        }
+}
